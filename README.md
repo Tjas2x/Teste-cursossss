@@ -8,7 +8,7 @@ Esse projeto usa Vue 3 `<script setup>` SFCs. Confira os [documentos de configur
 
 ## O que é um quickstart?
 
-Um projeto Quickstart é um guia simplificado que mostra como criar um programa ou uma aplicação básica.
+É um projeto modelo pré-configurado que facilita o início das atividades assim como serve de exemplo para projetos já em andamento.
 
 ## Considerações sobre segurança, qualidade e boas práticas
 
