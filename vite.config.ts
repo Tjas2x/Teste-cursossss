@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   publicDir: 'src/assets',
-  base: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/',
+  base: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/',
   plugins: [
     vue({
       template: {

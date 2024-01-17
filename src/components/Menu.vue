@@ -11,8 +11,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, Ref } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, Ref } from 'vue';
+import { useRouter } from 'vue-router';
 
 const menuRef: Ref<any> = ref(null)
 const router = useRouter()
@@ -22,28 +22,28 @@ const menuItems = ref([
     id: 1,
     icon: 'home',
     name: 'Página Inicial',
-    url: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/',
+    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/',
     isSpaLinkBehavior: true,
   },
   {
     id: 2,
     icon: 'users-cog',
     name: 'Formulário',
-    url: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/formulario',
+    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/formulario',
     isSpaLinkBehavior: true,
   },
   {
     id: 3,
     icon: 'sign-in-alt',
     name: 'Sign-In',
-    url: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/sign-in',
+    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/sign-in',
     isSpaLinkBehavior: true,
   },
   {
     id: 4,
     icon: 'cookie',
     name: 'Cookiebar',
-    url: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/cookiebar',
+    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/cookiebar',
     isSpaLinkBehavior: true,
   },
 ])

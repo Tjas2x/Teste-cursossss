@@ -3,8 +3,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { useRoute } from 'vue-router'
+import { computed, ref } from 'vue';
+import { useRoute } from 'vue-router';
 
 const isHome = ref(false)
 const route = useRoute()
@@ -14,7 +14,7 @@ const links = computed(() => {
   const breadcrumbs: any[] = [
     {
       label: 'Página Inicial',
-      url: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/',
+      url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/',
       home: true,
     },
   ]
@@ -23,7 +23,7 @@ const links = computed(() => {
     if (routeRecord.name && routeRecord.path !== '/') {
       breadcrumbs.push({
         label: String(routeRecord.meta?.breadcrumb || routeRecord.name),
-        url: `/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/${routeRecord.path}`,
+        url: `/bibliotecas/wc/govbr-ds-wc-quickstart-vue/${routeRecord.path}`,
         active: true,
       })
     }

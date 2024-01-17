@@ -6,7 +6,7 @@ import Signin from './pages/Signin.vue'
 
 const routes = [
   {
-    path: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/',
+    path: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/',
     component: Home,
     name: 'Home',
     meta: {
@@ -14,7 +14,7 @@ const routes = [
     },
   },
   {
-    path: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/formulario',
+    path: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/formulario',
     component: Formulario,
     name: 'Formulário',
     meta: {
@@ -22,7 +22,7 @@ const routes = [
     },
   },
   {
-    path: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/sign-in',
+    path: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/sign-in',
     component: Signin,
     name: 'Sign-in',
     meta: {
@@ -30,7 +30,7 @@ const routes = [
     },
   },
   {
-    path: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/cookiebar',
+    path: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/cookiebar',
     component: Cookiebar,
     name: 'Cookiebar',
     meta: {

@@ -5,15 +5,15 @@
 </template>
 
 <script setup lang="ts">
-import axios from 'axios'
-import MarkdownIt from 'markdown-it'
-import { computed, ref } from 'vue'
+import axios from 'axios';
+import MarkdownIt from 'markdown-it';
+import { computed, ref } from 'vue';
 
 const markdownContent = ref('')
 const md = new MarkdownIt()
 
 axios
-  .get('/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/README.md')
+  .get('/bibliotecas/wc/govbr-ds-wc-quickstart-vue/README.md')
   .then((response) => {
     markdownContent.value = response.data
   })

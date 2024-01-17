@@ -9,16 +9,16 @@
     "web components",
     "vue"
   ],
-  "homepage": "https://govbr-ds.gitlab.io/wbc/quickstarts/govbr-ds-wbc-quickstart-vue",
-  "bugs": "https://gitlab.com/govbr-ds/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/-/issues",
-  "repository": "gitlab:govbr-ds/wbc/quickstarts/govbr-ds-wbc-quickstart-vue.git",
+  "homepage": "https://govbr-ds.gitlab.io/bibliotecas/wc/govbr-ds-wc-quickstart-vue",
+  "bugs": "https://gitlab.com/govbr-ds/bibliotecas/wc/govbr-ds-wc-quickstart-vue/-/issues",
+  "repository": "gitlab:govbr-ds/bibliotecas/wc/govbr-ds-wc-quickstart-vue.git",
   "license": "MIT",
-  "author": "SERPRO <govbr-ds@serpro.gov.br> (http://serpro.gov.br/)",
+  "author": "SERPRO (http://serpro.gov.br/)",
   "contributors": [
     "Dataprev (https://portal3.dataprev.gov.br/)"
   ],
   "scripts": {
-    "build": "cp -f README.md src/assets && vue-tsc --noEmit && vite build --outDir public --base=/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/",
+    "build": "cp -f README.md src/assets && vue-tsc --noEmit && vite build --outDir public --base=/bibliotecas/wc/govbr-ds-wc-quickstart-vue/",
     "commit": "git-cz",
     "dev": "cp -f README.md src/assets && vite",
     "lint:md": "markdownlint --fix **/*.md -d -c .markdownlint.yml",

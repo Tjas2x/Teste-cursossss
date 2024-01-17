@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 
 const title = 'Web Components GovBR-DS - Quickstart Vue'
 const signature = 'Padrão Digital de Governo'
 const image = ref({
-  src: '/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/logo-vue.png',
+  src: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/logo-vue.png',
   alt: 'Logo de exemplo',
 })
 
@@ -27,7 +27,7 @@ const functions = ref([
   {
     icon: 'code',
     name: 'Repositórios de Web Components',
-    url: 'https://gitlab.com/govbr-ds/wbc',
+    url: 'https://gitlab.com/govbr-ds/bibliotecas/wc',
     tooltipText: 'Contribua com os projetos de Web Components',
     tooltipPlace: 'bottom',
   },
@@ -64,7 +64,7 @@ const toggleMenu = () => {
     id="header"
     :image="image.src"
     :signature="signature"
-    title-link-url="/wbc/quickstarts/govbr-ds-wbc-quickstart-vue/"
+    title-link-url="/bibliotecas/wc/govbr-ds-wc-quickstart-vue/"
     :title="title"
   >
     <div slot="headerMenu">
