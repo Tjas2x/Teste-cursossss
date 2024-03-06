@@ -61,7 +61,7 @@ OBS: Para contribuir com o projeto o clone pode não ser a maneira correta. Por 
 
 ## Utilizando os Web Components
 
-Inclua essas duas importações no arquivo *main.ts*.
+Inclua essas duas importações no arquivo _main.ts_.
 
 ```javascript
 import '../node_modules/@govbr-ds/webcomponents/dist/webcomponents.umd.min.js'
@@ -164,19 +164,19 @@ Lembre-se de que este é apenas um exemplo básico de como implementar o uso do 
 
 Use nossos canais abaixo para obter tirar suas dúvidas:
 
--   Site do GovBR-DS [http://gov.br/ds](http://gov.br/ds)
+- Site do GovBR-DS [http://gov.br/ds](http://gov.br/ds)
 
--   Web Components [https://gov.br/ds/webcomponents/](https://gov.br/ds/webcomponents/)
+- Web Components [https://gov.br/ds/webcomponents/](https://gov.br/ds/webcomponents/)
 
--   Usando nosso canal no discord [https://discord.gg/U5GwPfqhUP](https://discord.gg/U5GwPfqhUP)
+- Usando nosso canal no discord [https://discord.gg/U5GwPfqhUP](https://discord.gg/U5GwPfqhUP)
 
 ## Como contribuir?
 
 Antes de abrir um Merge Request tenha em mente algumas informações:
 
--   Esse é um projeto opensource e contribuições são bem-vindas.
--   Para facilitar a aprovação da sua contribuição, escolha um título curto, simples e explicativo para o MR, e siga os padrões da nossa [wiki](https://gov.br/ds/wiki/ 'Wiki').
--   Quer contribuir com o projeto? Confira o nosso guia [como contribuir](./CONTRIBUTING.md 'Como contribuir?').
+- Esse é um projeto opensource e contribuições são bem-vindas.
+- Para facilitar a aprovação da sua contribuição, escolha um título curto, simples e explicativo para o MR, e siga os padrões da nossa [wiki](https://gov.br/ds/wiki/ 'Wiki').
+- Quer contribuir com o projeto? Confira o nosso guia [como contribuir](./CONTRIBUTING.md 'Como contribuir?').
 
 ### Commits
 

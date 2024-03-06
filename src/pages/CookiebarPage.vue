@@ -12,5 +12,5 @@
 </template>
 
 <script setup lang="ts">
-import Cookiebar from '../components/Cookiebar.vue'
+import Cookiebar from "../components/Cookiebar.vue"
 </script>

@@ -11,8 +11,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref, Ref } from 'vue';
-import { useRouter } from 'vue-router';
+import { ref, Ref } from "vue"
+import { useRouter } from "vue-router"
 
 const menuRef: Ref<any> = ref(null)
 const router = useRouter()
@@ -20,30 +20,30 @@ const router = useRouter()
 const menuItems = ref([
   {
     id: 1,
-    icon: 'home',
-    name: 'Página Inicial',
-    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/',
+    icon: "home",
+    name: "Página Inicial",
+    url: "/bibliotecas/wc/govbr-ds-wc-quickstart-vue/",
     isSpaLinkBehavior: true,
   },
   {
     id: 2,
-    icon: 'users-cog',
-    name: 'Formulário',
-    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/formulario',
+    icon: "users-cog",
+    name: "Formulário",
+    url: "/bibliotecas/wc/govbr-ds-wc-quickstart-vue/formulario",
     isSpaLinkBehavior: true,
   },
   {
     id: 3,
-    icon: 'sign-in-alt',
-    name: 'Sign-In',
-    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/sign-in',
+    icon: "sign-in-alt",
+    name: "Sign-In",
+    url: "/bibliotecas/wc/govbr-ds-wc-quickstart-vue/sign-in",
     isSpaLinkBehavior: true,
   },
   {
     id: 4,
-    icon: 'cookie',
-    name: 'Cookiebar',
-    url: '/bibliotecas/wc/govbr-ds-wc-quickstart-vue/cookiebar',
+    icon: "cookie",
+    name: "Cookiebar",
+    url: "/bibliotecas/wc/govbr-ds-wc-quickstart-vue/cookiebar",
     isSpaLinkBehavior: true,
   },
 ])

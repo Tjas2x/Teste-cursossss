@@ -7,10 +7,10 @@
 </template>
 
 <script setup lang="ts">
-import BreadCrumb from '@/components/BreadCrumb.vue'
-import Message from '@/components/Message.vue'
+import BreadCrumb from "@/components/BreadCrumb.vue"
+import Message from "@/components/Message.vue"
 
-const name = 'UsuarioPage'
+const name = "UsuarioPage"
 const components = {
   BreadCrumb,
   Message,

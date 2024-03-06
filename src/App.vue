@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import Breadcrumb from './components/BreadCrumb.vue'
-import Footer from './components/Footer.vue'
-import Header from './components/Header.vue'
-import Menu from './components/Menu.vue'
+import Breadcrumb from "./components/BreadCrumb.vue"
+import Footer from "./components/Footer.vue"
+import Header from "./components/Header.vue"
+import Menu from "./components/Menu.vue"
 </script>
 
 <template>

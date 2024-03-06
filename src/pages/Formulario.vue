@@ -186,34 +186,34 @@
 </template>
 
 <script lang="ts">
-import Message from '@/components/Message.vue'
+import Message from "@/components/Message.vue"
 
 export default {
-  name: 'FormularioPage',
+  name: "FormularioPage",
   components: {
     Message,
   },
   data() {
     return {
-      name: '',
-      email: '',
-      mobile: '',
-      password: '',
-      rg: '',
-      cpf: '',
-      birthDate: '',
-      address: '',
-      cep: '',
+      name: "",
+      email: "",
+      mobile: "",
+      password: "",
+      rg: "",
+      cpf: "",
+      birthDate: "",
+      address: "",
+      cep: "",
       errors: {
-        name: '',
-        email: '',
-        mobile: '',
-        password: '',
-        rg: '',
-        cpf: '',
-        birthDate: '',
-        address: '',
-        cep: '',
+        name: "",
+        email: "",
+        mobile: "",
+        password: "",
+        rg: "",
+        cpf: "",
+        birthDate: "",
+        address: "",
+        cep: "",
       },
       isSubmited: false,
       submittedUsers: [] as any[],
@@ -221,67 +221,67 @@ export default {
   },
   methods: {
     checkName() {
-      this.errors.name = !this.name ? 'O campo Nome é obrigatório.' : ''
+      this.errors.name = !this.name ? "O campo Nome é obrigatório." : ""
     },
     checkEmail() {
-      this.errors.email = !this.email ? 'O campo E-mail é obrigatório.' : ''
+      this.errors.email = !this.email ? "O campo E-mail é obrigatório." : ""
     },
     checkMobile() {
-      this.errors.mobile = !this.mobile ? 'O campo Telefone é obrigatório.' : ''
+      this.errors.mobile = !this.mobile ? "O campo Telefone é obrigatório." : ""
     },
     checkPassword() {
-      this.errors.password = !this.password ? 'O campo Senha é obrigatório.' : ''
+      this.errors.password = !this.password ? "O campo Senha é obrigatório." : ""
     },
     checkRG() {
-      this.errors.rg = !this.rg ? 'O campo RG é obrigatório.' : ''
+      this.errors.rg = !this.rg ? "O campo RG é obrigatório." : ""
     },
     checkCPF() {
-      this.errors.cpf = !this.cpf ? 'O campo CPF é obrigatório.' : ''
+      this.errors.cpf = !this.cpf ? "O campo CPF é obrigatório." : ""
     },
     checkBirthDate() {
-      this.errors.birthDate = !this.birthDate ? 'O campo Data de Nascimento é obrigatório.' : ''
+      this.errors.birthDate = !this.birthDate ? "O campo Data de Nascimento é obrigatório." : ""
     },
     checkForm() {
       this.errors = {
-        name: '',
-        email: '',
-        mobile: '',
-        password: '',
-        rg: '',
-        cpf: '',
-        birthDate: '',
-        address: '',
-        cep: '',
+        name: "",
+        email: "",
+        mobile: "",
+        password: "",
+        rg: "",
+        cpf: "",
+        birthDate: "",
+        address: "",
+        cep: "",
       }
 
       if (!this.name) {
-        this.errors.name = 'O campo Nome é obrigatório.'
+        this.errors.name = "O campo Nome é obrigatório."
       }
       if (!this.email) {
-        this.errors.email = 'O campo E-mail é obrigatório.'
+        this.errors.email = "O campo E-mail é obrigatório."
       }
 
       if (!this.mobile) {
-        this.errors.mobile = 'O campo Telefone é obrigatório.'
+        this.errors.mobile = "O campo Telefone é obrigatório."
       }
 
       if (!this.password) {
-        this.errors.password = 'O campo Senha é obrigatório.'
+        this.errors.password = "O campo Senha é obrigatório."
       }
 
       if (!this.rg) {
-        this.errors.rg = 'O campo RG é obrigatório.'
+        this.errors.rg = "O campo RG é obrigatório."
       }
 
       if (!this.cpf) {
-        this.errors.cpf = 'O campo CPF é obrigatório.'
+        this.errors.cpf = "O campo CPF é obrigatório."
       }
 
       if (!this.birthDate) {
-        this.errors.birthDate = 'O campo Data de Nascimento é obrigatório.'
+        this.errors.birthDate = "O campo Data de Nascimento é obrigatório."
       }
       // Retorna true se não houver mensagens de erro
-      return Object.values(this.errors).every((error) => error === '')
+      return Object.values(this.errors).every((error) => error === "")
     },
     hideMessage() {
       setTimeout(() => {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>
-      Usuário <b>{{ isLogged ? 'autenticado' : 'não autenticado' }}</b>
+      Usuário <b>{{ isLogged ? "autenticado" : "não autenticado" }}</b>
     </p>
 
     <br-message state="info" show-icon="true">
@@ -41,13 +41,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue"
 
 const isLogged = ref(false)
 const userMenuVisible = ref(false)
 const avatarButtonStyle = {
-  padding: 'var(--spacing-scale-base)',
-  height: 'auto',
+  padding: "var(--spacing-scale-base)",
+  height: "auto",
 }
 
 const toggleSignIn = () => {
@@ -61,6 +61,6 @@ const toggleUserMenu = () => {
 
 const toggleFunctionality = (functionality: string) => {
   // Lógica para alternar a funcionalidade
-  console.log('Funcionalidade clicada:', functionality)
+  console.log("Funcionalidade clicada:", functionality)
 }
 </script>
