@@ -61,7 +61,7 @@ OBS: Para contribuir com o projeto o clone pode não ser a maneira correta. Por 
 
 ## Utilizando os Web Components
 
-Inclua essas duas importações no arquivo _main.ts_.
+Inclua essas duas importações no arquivo *main.ts*.
 
 ```javascript
 import '../node_modules/@govbr-ds/webcomponents/dist/webcomponents.umd.min.js'
